@@ -1,3 +1,5 @@
+// my version
+
 import java.awt.*;
 
 import javax.swing.*;
@@ -10,12 +12,15 @@ import javax.swing.Timer;
 @SuppressWarnings("serial")
 public class button extends JButton {
 
-	int xCoord = -1;
+	public button() {
+		//
+	}
 
 	public button(String string) {
-		// TODO Auto-generated constructor stub
 		this.setText(string);
 	}
+
+	int xCoord = -1;
 
 	public void setXcoord(int x) {
 		xCoord = x;

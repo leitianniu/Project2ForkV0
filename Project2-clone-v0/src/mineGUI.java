@@ -1,3 +1,4 @@
+// my version
 import java.awt.*;
 import java.awt.event.*;
 
@@ -89,7 +90,7 @@ public class mineGUI extends JFrame implements ActionListener {
 		// initialize buttons
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 10; j++) {
-				mineButtons[i][j] = new button(" "); 
+				mineButtons[i][j] = new button(" ");
 				mboard.add(mineButtons[i][j]);
 				mineButtons[i][j].setXcoord(i);
 				mineButtons[i][j].setYcoord(j);
@@ -188,7 +189,7 @@ public class mineGUI extends JFrame implements ActionListener {
 
 		if (e.getSource() == gReset) {
 			System.out.println("Reset Pressed");
-			//main.gui = new mineGUI();
+			// main.gui = new mineGUI();
 		}
 
 		else if (e.getSource() == gTopTen) {
